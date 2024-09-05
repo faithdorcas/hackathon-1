@@ -1,0 +1,75 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: red;
+    color: purple;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: yellow;
+    color: olivedrab;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+section#contact {
+    background-color: orange;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section#contact h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    color: green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: indianred;
+}
+
+#formResponse {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
